@@ -1,0 +1,674 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="icon" type="images/png"  href="./images/favicon.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8.4.7/swiper-bundle.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.style.css">
+  </head>
+  <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="100">
+    <!--Navbar start-->
+    <header class="header_wrapper">
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <div class="container">
+              <a class="navbar-brand" href="#">
+                <img src="./images/logo.png"  class="img-fluid" alt="logo">
+              </a>
+                
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+               <!--<span class="navbar-toggler-icon"></span>--> 
+               <i class="fas fa-stream navbar-toggler-icon"></i>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav menu-navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#rooms">Rooms</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#services">Services</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#team">Team</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#gallery">Gallery</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#price">Price</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#blog">Blog</a>
+                  </li>
+                  <li class="nav-item mt-3 mt-lg-0">
+                    <a href="bookr.html" class="main-btn">Book Now</a>
+                </li>
+                  
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <!--Navbar end-->
+    
+
+<!--banner start-->
+  <section id="home" class="banner_wrapper p-0">
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide" style="background-image: url(./images/slider/slider2.webp);">
+            <div class="slide-caption text-center">
+              <div>
+              <h1>Welcome To Hotel In Dubai </h1>
+              <p>Welcome Hotel Apartments Dubai is a deluxe 4-star property set approximately a 10-minute drive from the Lush Creek Waterside Park and around a 10-minute ride from Dubai Museum. This romantic aparthotel offers parking on site and a swimming pool.</p>
+            </div>
+          </div>  
+        </div>
+        
+        <div class="swiper-slide" style="background-image: url(./images/slider/slider4.webp);">
+          <div class="slide-caption text-center">
+            <div>
+            <h1>Search hotels in Dubai</h1>
+            <p>
+              Enter your dates to see the latest prices and deals for Dubai hotelsFor more options and to compare deals, consider visiting platforms like Booking.com, Hotels.com, and Trivago.
+             When planning your stay, consider factors such as location, amenities, and proximity to attractions to ensure a comfortable and enjoyable experience in Dubai.</p>
+
+          </div>
+        </div>
+       </div>
+       
+       <div class="swiper-slide" style="background-image: url(./images/slider/slider5.webp);">
+        <div class="slide-caption text-center">
+          <div>
+          <h1>Search hotels in Beachfront</h1>
+          <p>
+            Enter your dates to see the latest prices and deals for Dubai hotelsFor more options and to compare deals, consider visiting platforms like Booking.com, Hotels.com, and Trivago.
+           When planning your stay, consider factors such as location, amenities, and proximity to attractions to ensure a comfortable and enjoyable experience in Dubai.</p>
+
+        </div>
+      </div>
+     </div>
+      </div>
+      <div class="swiper-pagination"></div>
+      </div>
+      <div class="container booking-area">
+        <div class="row">
+          <div class="col-lg mb-3 mb-lg-0">
+            <input type="date" class="form-control" placeholder="Date">
+      </div>
+        <div class="col-lg mb-3 mb-lg-0">
+        <input type="date" class="form-control" placeholder="Date">
+      </div>
+      <div class="col-lg-2 mb-3 mb-lg-0">
+        <select class="form-select">
+          <option selected>Adults</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+        </select>
+    </div>
+    <div class="col-lg-2 mb-3 mb-lg-0">
+      <select class="form-select">
+        <option selected>Children</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+      </select>
+    </div>
+    <div class="col-lg mb-3 mb-lg-0">
+      <button type="submit" class="main-btn rounded-2 px-lg-3">Check Avability</button>
+    </div>
+  </section>
+  <!--banner end-->
+  <!--about start-->
+  <section id="about" class="about_wrapper">
+    <div class="container">
+        <div class="row flex-lg-row flex-column-reverse">
+              <div class="col-lg-6 text-center text-lg-start">
+                <h3>Welcome to <span>Hotel<br class="d-none d-lg-block">
+                The Heaven</span> of Your Weekend</h3>
+                <p>
+                  Dubai is the most populous city in the United Arab Emirates and a top destination for tourism and luxury.It is a major globa transportation hub and boasts.
+                </p>
+                <p>
+                  With stunning five-star hotels,vibrant nightlife, and luxurious shopping experiences, Dubai offersan unforgettable experience.Come and explore the wonders of this dynamic city!Located in the eastern Arabian Peninsula
+                </p>
+                <a href="https://en.wikipedia.org/wiki/Dubai#Culture" class="main-btn mt-4">Explore</a>
+            </div>
+
+            <div class="col-lg-6 mb-4 mb-lg-0 ps-lg-4 text-center">
+                <img src="images/about-img.svg" class="img-fluid " alt="about">
+            </div>
+
+        </div>
+    </div>
+</section>
+  <!--about end-->
+  <!--Rooms Start-->
+  <section id="rooms" class="rooms_wrapper">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-12 section-title text-center mb-5">
+          <h6>A Stay Like No Other!</h6>
+          <h3>Discover Your Favorite Room </h3>
+        </div>
+      </div>
+      <div class="row m-0">
+        <div class="col-md-4 mb-4 mb-lg-0">
+          <div class="room-items">
+            <img src="./images/room/room1.webp" class="img-fluid" alt="room">
+            <div class="room-item-wrap">
+              <div class="room-content">
+                <h5 class="text-white mb-lg-5 text-decoration-underline">Royal suite</h5>
+                <p class="text-white"> Experience luxury in the heart of Dubai with our premium suite featuring breathtaking views of the iconic Burj Khalifa. 
+                </p>
+                <p class="text-white fw-bold mt-lg-4">$250 / Night</p>
+                <a href="#" class="main-btn border-white text-white mt-lg-5">Book Now</a>
+              </div>
+            </div>
+          </div>
+          </div>
+          <div class="col-md-4 mb-4 mb-lg-0">
+            <div class="room-items">
+              <img src="./images/room/room2.webp" class="img-fluid" alt="room">
+              <div class="room-item-wrap">
+                <div class="room-content">
+                  <h5 class="text-white mb-lg-5 text-decoration-underline">Luxury Suite</h5>
+                  <p class="text-white"> Experience ultimate luxury with breathtaking skyline views, modern interiors, and top-notch amenities.
+                  </p>
+                  <p class="text-white fw-bold mt-lg-4">$550 / Night</p>
+                  <a href="#" class="main-btn border-white text-white mt-lg-5">Book Now</a>
+                </div>
+              </div>
+            </div>
+            </div>
+            <div class="col-md-4 mb-4 mb-lg-0">
+              <div class="room-items">
+                <img src="./images/room/room3.webp" class="img-fluid" alt="room">
+                <div class="room-item-wrap">
+                  <div class="room-content">
+                    <h5 class="text-white mb-lg-5 text-decoration-underline">Beachfront Villa</h5>
+                    <p class="text-white"> Enjoy a private beachfront villa with direct beach access, luxurious interiors, and a private pool.and enjoy it.
+                    </p>
+                    <p class="text-white fw-bold mt-lg-4">$450 / Night</p>
+                    <a href="#" class="main-btn border-white text-white mt-lg-5">Book Now</a>
+                  </div>
+                </div>
+              </div>
+              </div>
+              </div>
+            </div>
+          </div>
+    </div>
+  </section>
+   <!--Rooms end-->
+
+   <!-- Services Start-->
+<section id="services" class="services_wrapper">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 section-title text-center mb-5">
+        <h6>We Are Here For You</h6>
+        <h3>Our Awesome Services</h3>
+      </div>
+    </div>
+
+    <div class="row align-items-center service-item-wrap">
+      <div class="col-lg-7 p-lg-0">
+        <div class="tab-content" id="MyTabContent">
+          <div class="tab-pane fade show active" id="spa" role="tabpanel">
+            <img src="./images/services/service1.webp" alt="Spa">
+          </div>
+          <div class="tab-pane fade" id="restaurant" role="tabpanel">
+            <img src="./images/services/service2.webp" alt="Restaurant">
+          </div>
+          <div class="tab-pane fade" id="swimming-pool" role="tabpanel">
+            <img src="./images/services/service3.webp"  alt="Swimming Pool">
+          </div>
+          <div class="tab-pane fade" id="conference" role="tabpanel">
+            <img src="./images/services/service6.webp" alt="Conference">
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-5 position-relative">
+        <div class="service-menu-area">
+          <ul class="nav">
+            <li>
+              <a class="active" data-bs-toggle="tab" href="#spa" role="tab">
+                <span class="service-icon">
+                  <img src="./images/services/service-icon1.webp" alt="Spa Icon">
+                </span>
+                <h5>Spa Beauty & Health</h5>
+                <p><span>Spa & Beauty</span> - Dubai's spa and beauty scene is a haven of relaxation and rejuvenation.</p>
+              </a>
+            </li>
+            <li>
+              <a  data-bs-toggle="tab" href="#restaurant" role="tab">
+                <span class="service-icon">
+                  <img src="./images/services/service-icon2.webp" alt="Restaurant Icon">
+                </span>
+                <h5>Restaurant</h5>
+                <p><span>Fine Dining</span> - Experience the flavors of Dubai at our luxurious restaurant with world-class cuisine.</p>
+              </a>
+            </li>
+            <li>
+              <a data-bs-toggle="tab" href="#swimming-pool">
+                <span class="service-icon">
+                  <img src="./images/services/service-icon3.webp" alt="Swimming Pool Icon">
+                </span>
+                <h5>Swimming Pool</h5>
+                <p><span>Infinity Pool</span> - Relax at our stunning infinity pool overlooking the breathtaking Dubai skyline.</p>
+              </a>
+            </li>
+            <li>
+              <a data-bs-toggle="tab" href="#conference">
+                <span class="service-icon">
+                  <img src="./images/services/service-icon4.webp" alt="Conference Icon">
+                </span>
+                <h5>Conference Hall</h5>
+                <p><span>Business Events</span> - Host your next business event in style with state-of-the-art facilities.</p>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="counter mt-5">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
+          <h1>
+            <span id="count1"></span>+
+          </h1>
+          <p>Happy Clients</p>
+      </div>
+      <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
+        <h1>
+          <span id="count2"></span>+
+        </h1>
+        <p>New Fraindship</p>
+        </div>
+        <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
+          <h1>
+            <span id="count3"></span>+
+          </h1>
+          <p>Five star Ratings</p>
+      </div>
+      <div class="col-md-3 mb-lg-0 mb-md-0 mb-5">
+        <h1>
+          <span id="count4"></span>+
+        </h1>
+        <p>Served Breakfast</p>
+    </div>
+    </div>
+    </div>
+  </div>
+</section>
+<!--service end-->
+  
+    <!--staff start-->
+    <section id="team" class="team_wrapper">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 section-title text-center mb-5">
+            <h6>We Are Here For You</h6>
+            <h3>Our Special Staff</h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="card p-0 rounded-3">
+              <img src="images/team/team1.webp" class="img-fluid rounded-3">
+              <div class="team-info">
+                <h5>Shirley Gibson</h5>
+                <p>Manger</p>
+                <ul class="social-network">
+                     <li><a href="#"><i class="fab fa-facebook fa-2x"></i></a></li>
+                     <li><a href="#"><i class="fab fa-twitter fa-2x"></i></a></li> 
+                      <li><a href="#"><i class="fab fa-instagram fa-2x"></i></a></li>
+                      <li><a href="#"><i class="fab fa-linkedin fa-2x"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="card p-0 rounded-3">
+              <img src="images/team/team2.webp" class="img-fluid rounded-3">
+              <div class="team-info">
+                <h5>Ronald Rong</h5>
+                <p>Chief Reception Officer</p>
+                <ul class="social-network">
+                     <li><a href="#"><i class="fab fa-facebook fa-2x"></i></a></li>
+                     <li><a href="#"><i class="fab fa-twitter fa-2x"></i></a></li> 
+                      <li><a href="#"><i class="fab fa-instagram fa-2x"></i></a></li>
+                      <li><a href="#"><i class="fab fa-linkedin fa-2x"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="card p-0 rounded-3">
+              <img src="images/team/team3.webp" class="img-fluid rounded-3">
+              <div class="team-info">
+                <h5>Ashley Sanchez</h5>
+                <p>Master Chief</p>
+                <ul class="social-network">
+                     <li><a href="#"><i class="fab fa-facebook fa-2x"></i></a></li>
+                     <li><a href="#"><i class="fab fa-twitter fa-2x"></i></a></li> 
+                      <li><a href="#"><i class="fab fa-instagram fa-2x"></i></a></li>
+                      <li><a href="#"><i class="fab fa-linkedin fa-2x"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="card p-0 rounded-3">
+              <img src="images/team/team4.webp" class="img-fluid rounded-3">
+              <div class="team-info">
+                <h5>Jessica Wetson</h5>
+                <p>House Keeping</p>
+                <ul class="social-network">
+                     <li><a href="#"><i class="fab fa-facebook fa-2x"></i></a></li>
+                     <li><a href="#"><i class="fab fa-twitter fa-2x"></i></a></li> 
+                      <li><a href="#"><i class="fab fa-instagram fa-2x"></i></a></li>
+                      <li><a href="#"><i class="fab fa-linkedin fa-2x"></i></a></li>
+                </ul>
+              </div>
+            </div>
+
+          </div>
+        </div>
+    
+      </div>
+    </section>
+   <!-- Staff end-->
+    <!--Gallery start-->
+    <section id="gallery" class="gallery_wrapper">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 section-title text-center mb-5">
+            <h6>Best Picture Of Our Hotel</h6>
+            <h3> Our Gallery</h3>
+            </div>
+          </div>
+          <div class="row g-0">
+            <div class="col-lg-3 col-md-6 gallery-item">
+              <img src="/images/gallery/1.webp" class="img-fluid w-100" alt="">
+              <div class="gallery-item-content"></div>
+            </div>
+            <div class="col-lg-3 col-md-6 gallery-item">
+              <img src="/images/gallery/2.webp" class="img-fluid w-100" alt="">
+              <div class="gallery-item-content"></div>
+            </div>
+            <div class="col-lg-3 col-md-6 gallery-item">
+              <img src="/images/gallery/3.webp" class="img-fluid w-100" alt="">
+              <div class="gallery-item-content"></div>
+            </div>    <div class="col-lg-3 col-md-6 gallery-item">
+              <img src="/images/gallery/4.webp" class="img-fluid w-100" alt="">
+              <div class="gallery-item-content"></div>
+            </div>
+            <div class="col-md-6 gallery-item">
+              <img src="/images/gallery/5.webp" class="img-fluid w-100" alt="">
+              <div class="gallery-item-content"></div>
+            </div>    <div class="col-md-6 gallery-item">
+              <img src="/images/gallery/6.webp" class="img-fluid w-100" alt="">
+              <div class="gallery-item-content"></div>
+            </div>
+            </div>
+        </div>
+      </section>
+        <!-- Gallery end-->
+  <!--pricing start-->
+  <section id="price" class="price_wrapper">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 section-title text-center mb-5">
+          <h6>Best And Afordable Price For You </h6>
+          <h3>Our Pricing</h3>
+          </div>
+        </div>
+        <div class="row">
+        <div class="col-lg-3 col-md-6 mb-4">
+          <div class="card p-4 text-center rounded-3">
+            <h5 class="text-decoration-underline mb-4">Economic</h5>
+            <ul  class="list-unstyled">
+              <li>
+                <p>Flight Ticket(2)</p>
+              </li>
+              <li>
+                <p>Music Consert(30% off)</p>
+              </li>
+
+              <li>
+                <p>Restaurant(Snaks)</p>
+              </li>
+              <li>
+                <p>Face Make(No)</p>
+              </li>
+            </ul>
+            <hr/>
+            <h3>$150<sub class="fs-6 fw-normal">/NIGHT</sub></h3>
+            <a href="signup.html" class="main-btn">Sign Up</a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-4">
+            <div class="card p-4 text-center rounded-3">
+              <h5 class="text-decoration-underline mb-4">Standerd</h5>
+              <ul  class="list-unstyled">
+                <li>
+                  <p>Flight Ticket(4)</p>
+                </li>
+                <li>
+                  <p>Music Consert(50% off)</p>
+                </li>
+  
+                <li>
+                  <p>Restaurant(Buffet)</p>
+                </li>
+                <li>
+                  <p>Spa TReatment(Basic)</p>
+                </li>
+              </ul>
+              <hr/>
+              <h3>$450<sub class="fs-6 fw-normal">/NIGHT</sub></h3>
+              <a href="signup.html" class="main-btn">Sign Up</a>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4">
+              <div class="card p-4 text-center rounded-3">
+                <h5 class="text-decoration-underline mb-4">Deluxe</h5>
+                <ul  class="list-unstyled">
+                  <li>
+                    <p>Flight Ticket(6)</p>
+                  </li>
+                  <li>
+                    <p>Music Consert(free entry)</p>
+                  </li>
+    
+                  <li>
+                    <p>Restaurant(Fine Dinning)</p>
+                  </li>
+                  <li>
+                    <p>Luxury Airport Pickup</p>
+                  </li>
+                </ul>
+                <hr/>
+                <h3>$300<sub class="fs-6 fw-normal">/NIGHT</sub></h3>
+                <a href="signup.html" class="main-btn">Sign Up</a>
+                </div>
+              </div>
+
+              <div class="col-lg-3 col-md-6 mb-4">
+                <div class="card p-4 text-center rounded-3">
+                  <h5 class="text-decoration-underline mb-4">luxury</h5>
+                  <ul  class="list-unstyled">
+                    <li>
+                      <p>First-Class Flight (2)</p>
+                    </li>
+                    <li>
+                      <p>VIP Concert Pass</p>
+                    </li>
+      
+                    <li>
+                      <p>Michelin Star Restaurant</p>
+                    </li>
+                    <li>
+                      <p>Spa & Wellness Treatment</p>
+                    </li>
+                  </ul>
+                  <hr/>
+                  <h3>$750<sub class="fs-6 fw-normal">/NIGHT</sub></h3>
+                  <a href="signup.html" class="main-btn">Sign Up</a>
+                  </div>
+                </div>
+      
+  
+
+        </div>
+        </div>
+        </section>
+          <!--pricing end-->  
+  <!--blog start-->
+  <section id="blog" class="blog_wrapper pb-0">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 section-title text-center mb-5">
+          <h6>Say Hello To Our Visitors</h6>
+          <h3> Our Blog</h3>
+          </div>
+        </div>
+        <div class="row ">
+          <div class="col-md-6 mb-4">
+            <div class="card p-0 border-0 rounded-0">
+              <img src="images/blog/blog1.webp" alt="">
+              <div class="blog-content bg-white p-4">
+              <h5 class="text-decoration-underline mb-4">Relax Zone</h5>
+              <h6>By Admin-February 18,2018</h6>
+              <p class="mt-2">Experience peace and serenity in our luxurious relaxation areas. Unwind with breathtaking views.</p>
+              <a href="#" class="main-btn">Read More</a>
+              </div>
+              </div>
+          </div>
+          <div class="col-md-6 mb-4">
+            <div class="card p-0 border-0 rounded-0">
+                <img src="images/blog/blog2.webp" alt="Gourmet Dining">
+                <div class="blog-content bg-white p-4">
+                    <h5 class="text-decoration-underline mb-4">Gourmet Dining</h5>
+                    <h6>By Admin - March 10, 2024</h6>
+                    <p class="mt-2">Enjoy world-class cuisine prepared by top chefs, featuring a blend of international flavors.</p>
+                    <a href="#" class="main-btn">Read More</a>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+        </section>
+        <section class="our-partner-slider mt-5">
+          <div class="container">
+            <div class="swiper our-partner">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="./images/partners/brand1.webp" alt="Brand 1"></div>
+                <div class="swiper-slide"><img src="./images/partners/brand2.webp" alt="Brand 2"></div>
+                <div class="swiper-slide"><img src="./images/partners/brand3.webp" alt="Brand 3"></div>
+                <div class="swiper-slide"><img src="./images/partners/brand4.webp" alt="Brand 4"></div>
+                <div class="swiper-slide"><img src="./images/partners/brand5.webp" alt="Brand 5"></div>
+                <div class="swiper-slide"><img src="./images/partners/brand6.webp" alt="Brand 6"></div>
+              </div>
+            </div>
+          </div>
+        </section>
+          <!--blog end-->
+
+        <!--footer start-->
+        <section id="contact" class="footer_wrapper mt-3 mt-md-0 pb-0">
+          <div class="container pb-3">
+              <div class="row">
+                  <div class="col-lg-3 col-md-6">
+                      <h5>Hotel Apartments</h5>
+                      <p> Auris Boutique Hotel Apartments, Al Barsha At The MallNear Mall of the Emirates facing Sheikh Zyed Road, PO Box 113139, Al Barsha, Dubai</p>
+                      <div class="contact-info">
+                          <ul class="list-unstyled">
+                              <li><a href="#"><i class="fa fa-map-marker-alt me-2"></i>No 96, Hotel Apartments, Dubai</a></li>
+                              <li><a href="#"><i class="fa fa-phone-alt me-2"></i>+1 22 333 45</a></li>
+                              <li><a href="#"><i class="fa fa-envelope me-2"></i>HotelApartment@gmail.com</a></li>
+                          </ul>
+                      </div>
+                  </div>
+      
+                  <div class="col-lg-3 col-md-6">
+                      <h5>More Links</h5>
+                      <ul class="list-widget p-0">
+                          <li><a href="#">About Us</a></li>
+                          <li><a href="#">Our Office</a></li>
+                          <li><a href="#">Delivery</a></li>
+                          <li><a href="#">Our Store</a></li>
+                          <li><a href="#">Guarantee</a></li>
+                          <li><a href="#">Buy Gift Card</a></li>
+                          <li><a href="#">Return Policy</a></li>
+                      </ul>
+                  </div>
+      
+                  <div class="col-lg-3 col-md-6">
+                      <h5>Services</h5>
+                      <ul class="list-widget p-0">
+                          <li><a href="#">Room Booking</a></li>
+                          <li><a href="#">Restaurant Services</a></li>
+                          <li><a href="#">Event Hosting</a></li>
+                          <li><a href="#">Spa & Wellness</a></li>
+                          <li><a href="#">Tour Packages</a></li>
+                          <li><a href="#">Airport Pickups</a></li>
+                          <li><a href="#">Customer Support</a></li>
+                      </ul>
+                  </div>
+      
+                  <div class="col-lg-3 col-md-6">
+                      <h5>Newsletter</h5>
+                      <div class="form-group mb-4">
+                          <input type="email" class="form-control bg-transparent text-white" placeholder="Enter your email here">
+                          <button type="submit" class="main-btn rounded-2 mt-3 border-white text-white">Subscribe</button>
+                      </div>
+      
+                      <h5>Stay Connected</h5>
+                      <ul class="social-network d-flex align-items-center p-0">
+                          <li><a href="#"><i class="fab fa-facebook fa-2x"></i></a></li>
+                          <li><a href="#"><i class="fab fa-twitter fa-2x"></i></a></li>
+                          <li><a href="#"><i class="fab fa-instagram fa-2x"></i></a></li>
+                          <li><a href="#"><i class="fab fa-linkedin fa-2x"></i></a></li>
+                      </ul>
+                  </div>
+              </div>
+      
+              <div class="container-fluid copyright-section text-center mt-4">
+                  <p class="mb-0">Copyright &copy; 1996-2025 <a href="#">Booking.com™.</a>. All Rights Reserved.</p>
+              </div>
+          </div>
+      </section>
+     <!--footer end-->
+      
+     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/swiper@8.4.7/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
+
